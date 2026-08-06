@@ -176,7 +176,7 @@ jupyter notebook
 AQI-Prediction-System/
 │
 ├── AQI Prediction System.ipynb
-├── air_quality_health_dataset.csv
+├── dataset
 ├── requirements.txt
 ├── README.md
 └── images/
