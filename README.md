@@ -1,2 +1,195 @@
-# AQI-Prediction-System
-AQI Prediction System that leverages Machine Learning and Transformer architectures to analyze environmental factors and predict Air Quality Index (AQI) with improved accuracy and reliability.
+
+# 🚀 AQI Prediction System
+
+> **A Transformer-based Air Quality Index (AQI) Forecasting System** built from scratch using PyTorch for accurate time-series prediction of air quality using historical pollution and meteorological data.
+
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)
+![PyTorch](https://img.shields.io/badge/PyTorch-Deep%20Learning-red?style=for-the-badge&logo=pytorch)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?style=for-the-badge&logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=for-the-badge&logo=pandas)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
+
+---
+
+## 📖 Overview
+
+AQI Prediction System is an end-to-end deep learning project that predicts future Air Quality Index (AQI) values from historical environmental observations. The project covers the complete ML lifecycle including preprocessing, exploratory data analysis, feature engineering, Transformer-based forecasting, and regression evaluation.
+
+---
+
+## 📸 Screenshots
+
+Create an `images/` folder and add screenshots:
+
+| Screenshot | File |
+|------------|------|
+| Dataset Overview | `images/dataset.png` |
+| Correlation Heatmap | `images/heatmap.png` |
+| AQI Distribution | `images/distribution.png` |
+| Training Loss | `images/loss.png` |
+| Actual vs Predicted | `images/prediction.png` |
+| Forecast Results | `images/forecast.png` |
+
+---
+
+## ⭐ Highlights
+
+- End-to-end AQI forecasting pipeline
+- Transformer Neural Network for time-series forecasting
+- Exploratory Data Analysis (EDA)
+- Correlation Heatmap visualization
+- Missing value analysis
+- IQR-based outlier detection
+- ADF stationarity testing
+- Date & cyclical feature engineering
+- One-Hot Encoding for regions
+- MinMax normalization
+- Chronological train-test split
+- User-input based AQI prediction
+- Evaluation using MAE, RMSE and R² Score
+
+---
+
+## 🧩 Features
+
+| Feature | Status |
+|---|:---:|
+| Data Cleaning | ✅ |
+| Missing Value Analysis | ✅ |
+| Histograms | ✅ |
+| Correlation Heatmap | ✅ |
+| Outlier Detection (IQR) | ✅ |
+| ADF Test | ✅ |
+| Date Feature Engineering | ✅ |
+| Cyclical Encoding | ✅ |
+| One-Hot Encoding | ✅ |
+| Feature Scaling | ✅ |
+| Transformer Model | ✅ |
+| AQI Prediction | ✅ |
+| Regression Metrics | ✅ |
+
+---
+
+## 🏗️ Architecture
+
+```text
+Dataset
+   │
+   ▼
+Data Cleaning
+   │
+   ▼
+EDA (Histogram + Heatmap)
+   │
+   ▼
+Outlier Detection (IQR)
+   │
+   ▼
+ADF Stationarity Test
+   │
+   ▼
+Feature Engineering
+(Date + Cyclical + Region Encoding)
+   │
+   ▼
+Feature Scaling
+(MinMaxScaler)
+   │
+   ▼
+Sequence Generation
+   │
+   ▼
+Transformer Encoder
+   │
+   ▼
+AQI Prediction
+   │
+   ▼
+MAE • RMSE • R² Evaluation
+```
+
+## ⚡ Quick Start
+
+```bash
+git clone https://github.com/yourusername/AQI-Prediction-System.git
+cd AQI-Prediction-System
+
+python -m venv venv
+
+# Windows
+venv\Scripts\activate
+
+# Linux/macOS
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+jupyter notebook
+```
+
+Open `AQI Prediction System.ipynb` and run all cells.
+
+## 🛠 Tech Stack
+
+- Python
+- PyTorch
+- Pandas
+- NumPy
+- Scikit-Learn
+- Matplotlib
+- Seaborn
+- Statsmodels
+- Jupyter Notebook
+
+## 📁 Project Structure
+
+```text
+AQI-Prediction-System/
+│
+├── AQI Prediction System.ipynb
+├── air_quality_health_dataset.csv
+├── requirements.txt
+├── README.md
+└── images/
+```
+
+## 📊 Exploratory Data Analysis
+
+- Missing value analysis
+- Histograms
+- Correlation heatmap
+- IQR outlier detection
+- Distribution analysis
+
+## 🔬 Feature Engineering
+
+- Datetime parsing
+- Day/Month/Year extraction
+- Cyclical encoding
+- Region one-hot encoding
+- Feature scaling
+- Sequence generation
+
+## 🤖 Transformer Model
+
+The project uses a Transformer Encoder architecture with self-attention to capture temporal dependencies in AQI data.
+
+## 📈 Evaluation Metrics
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- R² Score
+
+## 🌍 Prediction
+
+The trained model predicts AQI using historical pollution and weather observations and supports user-input forecasting.
+
+## 🚀 Future Improvements
+
+- Streamlit dashboard
+- FastAPI deployment
+- Live AQI API integration
+- Hyperparameter tuning
+- Docker
+- Multi-city forecasting
+- Attention visualization
