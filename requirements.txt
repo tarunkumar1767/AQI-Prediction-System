@@ -1,0 +1,11 @@
+torch
+torchvision
+pandas
+numpy
+scikit-learn
+statsmodels
+matplotlib
+seaborn
+jupyter
+notebook
+openpyxl
