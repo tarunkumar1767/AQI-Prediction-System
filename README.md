@@ -99,57 +99,51 @@ AQI Prediction System is an end-to-end deep learning project that predicts futur
 
 ---
 
-## 🏗️ Architecture
+## 🏗 Architecture
 
+```text
                   Air Quality Dataset
                            │
                            ▼
                   Data Preprocessing
-     (Cleaning • Missing Values • Outliers)
+      (Cleaning • Missing Values • Outliers)
                            │
                            ▼
-             Exploratory Data Analysis (EDA)
-        (Histograms • Correlation Heatmap)
-                           │
-                           ▼
-                Stationarity Testing
-            (Augmented Dickey-Fuller Test)
+             Exploratory Data Analysis
                            │
                            ▼
                  Feature Engineering
-        (Date Features + Region Encoding)
                            │
                            ▼
-                  Feature Scaling
-                     (Normalization)
+                  Data Scaling
                            │
                            ▼
-            Time-Series Sequence Creation
+           Time-Series Sequence Creation
                            │
                            ▼
-               Transformer Neural Network
+           Transformer Neural Network
                            │
                            ▼
-                    AQI Prediction
+                AQI Prediction
                            │
                            ▼
              Performance Evaluation
-          (MAE • RMSE • R² Score)
+             (MAE • RMSE • R² Score)
 ```
 
-# ⚡ Quick Start
+## ⚡ Quick Start
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/AQI-Prediction-System.git
+git clone https://github.com/tarunkumar1767/AQI-Prediction-System.git
 
-# Navigate to the project
+# Navigate to project
 cd AQI-Prediction-System
 
-# Create a virtual environment
+# Create virtual environment
 python -m venv venv
 
-# Activate the environment
+# Activate environment
 
 # Windows
 venv\Scripts\activate
@@ -162,9 +156,6 @@ pip install -r requirements.txt
 
 # Launch Jupyter Notebook
 jupyter notebook
-
-# Open
-AQI Prediction System.ipynb
 ```
 
 ## 🛠 Tech Stack
