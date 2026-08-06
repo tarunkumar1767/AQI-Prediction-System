@@ -137,14 +137,19 @@ AQI Prediction System is an end-to-end deep learning project that predicts futur
           (MAE • RMSE • R² Score)
 ```
 
-
-## ⚡ Quick Start
+# ⚡ Quick Start
 
 ```bash
+# Clone the repository
 git clone https://github.com/yourusername/AQI-Prediction-System.git
+
+# Navigate to the project
 cd AQI-Prediction-System
 
+# Create a virtual environment
 python -m venv venv
+
+# Activate the environment
 
 # Windows
 venv\Scripts\activate
@@ -152,12 +157,15 @@ venv\Scripts\activate
 # Linux/macOS
 source venv/bin/activate
 
+# Install dependencies
 pip install -r requirements.txt
 
+# Launch Jupyter Notebook
 jupyter notebook
-```
 
-Open `AQI Prediction System.ipynb` and run all cells.
+# Open
+AQI Prediction System.ipynb
+```
 
 ## 🛠 Tech Stack
 
