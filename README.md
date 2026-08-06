@@ -19,16 +19,9 @@ AQI Prediction System is an end-to-end deep learning project that predicts futur
 
 ## 📸 Screenshots
 
-Create an `images/` folder and add screenshots:
-
-| Screenshot | File |
-|------------|------|
-| Dataset Overview | `images/dataset.png` |
-| Correlation Heatmap | `images/heatmap.png` |
-| AQI Distribution | `images/distribution.png` |
-| Training Loss | `images/loss.png` |
-| Actual vs Predicted | `images/prediction.png` |
-| Forecast Results | `images/forecast.png` |
+| Dataset Preview | Dataset Information |
+|-----------------|---------------------|
+| <img src="images/dataset.png" width="450"> | <img src="images/dataset-info.png" width="450"> |
 
 ---
 
