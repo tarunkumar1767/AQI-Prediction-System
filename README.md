@@ -48,7 +48,7 @@ Create an `images/` folder and add screenshots:
 - User-input based AQI prediction
 - Evaluation using MAE, RMSE and R² Score
 
----
+--
 
 ## 🧩 Features
 
