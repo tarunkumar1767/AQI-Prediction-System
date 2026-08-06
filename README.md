@@ -19,7 +19,6 @@ AQI Prediction System is an end-to-end deep learning project that predicts futur
 
 ## 📸 Screenshots
 
-| Dataset Preview | Dataset Information |
 |-----------------|---------------------|
 | <img src="images/dataset.png" width="450"> | <img src="images/dataset-info.png" width="450"> |
 
