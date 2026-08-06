@@ -72,41 +72,42 @@ Create an `images/` folder and add screenshots:
 
 ## 🏗️ Architecture
 
-```text
-Dataset
-   │
-   ▼
-Data Cleaning
-   │
-   ▼
-EDA (Histogram + Heatmap)
-   │
-   ▼
-Outlier Detection (IQR)
-   │
-   ▼
-ADF Stationarity Test
-   │
-   ▼
-Feature Engineering
-(Date + Cyclical + Region Encoding)
-   │
-   ▼
-Feature Scaling
-(MinMaxScaler)
-   │
-   ▼
-Sequence Generation
-   │
-   ▼
-Transformer Encoder
-   │
-   ▼
-AQI Prediction
-   │
-   ▼
-MAE • RMSE • R² Evaluation
+                  Air Quality Dataset
+                           │
+                           ▼
+                  Data Preprocessing
+     (Cleaning • Missing Values • Outliers)
+                           │
+                           ▼
+             Exploratory Data Analysis (EDA)
+        (Histograms • Correlation Heatmap)
+                           │
+                           ▼
+                Stationarity Testing
+            (Augmented Dickey-Fuller Test)
+                           │
+                           ▼
+                 Feature Engineering
+        (Date Features + Region Encoding)
+                           │
+                           ▼
+                  Feature Scaling
+                     (Normalization)
+                           │
+                           ▼
+            Time-Series Sequence Creation
+                           │
+                           ▼
+               Transformer Neural Network
+                           │
+                           ▼
+                    AQI Prediction
+                           │
+                           ▼
+             Performance Evaluation
+          (MAE • RMSE • R² Score)
 ```
+
 
 ## ⚡ Quick Start
 
