@@ -19,10 +19,48 @@ AQI Prediction System is an end-to-end deep learning project that predicts futur
 
 ## 📸 Screenshots
 
+## 📂 Dataset Overview
+
+| Dataset Preview | Dataset Information |
 |-----------------|---------------------|
-| <img src="images/dataset.png" width="450"> | <img src="images/dataset-info.png" width="450"> |
+| <img src="images/dataset-preview.png.png" width="450"> | <img src="images/dataset-info.png.png" width="450"> |
 
 ---
+
+## 📊 Exploratory Data Analysis (EDA)
+
+| PM2.5 Distribution | NO₂ Distribution |
+|--------------------|------------------|
+| <img src="images/pm25-distribution.png.png" width="450"> | <img src="images/no2-distribution.png.png" width="450"> |
+
+| O₃ Distribution | Humidity Distribution |
+|-----------------|-----------------------|
+| <img src="images/o3-distribution.png.png" width="450"> | <img src="images/humidity-distribution.png.png" width="450"> |
+
+---
+
+## 🌍 Region Distribution
+
+<p align="center">
+<img src="images/region-distribution.png.png" width="600">
+</p>
+
+---
+
+## 🔥 Correlation Heatmap
+
+<p align="center">
+<img src="images/heatmap.png.png" width="850">
+</p>
+
+---
+
+## 🤖 AQI Prediction Demo
+
+<p align="center">
+<img src="images/prediction-demo.png.png" width="800">
+</p>
+
 
 ## ⭐ Highlights
 
